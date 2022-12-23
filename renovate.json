@@ -2,5 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "postUpdateOptions": [
+    "gomodTidy"
+   ],
+  "prHourlyLimit": 1,
+  "packageRules": [
+    {
+      "groupName": "Gardener dependencies",
+      "groupSlug": "gardener-dependencies",
+      "matchPackagePrefixes": [
+         "github.com/gardener/gardener"
+      ]
+    }
   ]
 }
