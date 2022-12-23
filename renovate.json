@@ -13,7 +13,7 @@
       "groupSlug": "gardener-dependencies",
       "matchPackagePrefixes": [
          "github.com/gardener/gardener"
-      ]
+      ],
       "allowedVersions": "<=1.59.0"
     }
   ]
