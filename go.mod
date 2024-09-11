@@ -1,6 +1,8 @@
 module github.com/gardener/gardener-extension-shoot-oidc-service
 
-go 1.19
+go 1.23
+
+toolchain go1.23.1
 
 require (
 	github.com/Masterminds/semver v1.5.0
@@ -11,9 +13,9 @@ require (
 	github.com/onsi/gomega v1.20.0
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
-	golang.org/x/tools v0.1.12
-	k8s.io/api v0.25.0
-	k8s.io/apimachinery v0.25.0
+	golang.org/x/tools v0.6.0
+	k8s.io/api v0.25.3
+	k8s.io/apimachinery v0.25.3
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
 	k8s.io/code-generator v0.25.0
 	k8s.io/component-base v0.25.0
@@ -103,13 +105,13 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
-	golang.org/x/crypto v0.0.0-20220516162934-403b01795ae8 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
+	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/term v0.18.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/time v0.0.0-20220609170525-579cf78fd858 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -156,5 +158,5 @@ replace (
 // workaround for https://github.com/gardener/hvpa-controller/issues/92, remove once it's fixed
 replace (
 	github.com/gardener/hvpa-controller => github.com/gardener/hvpa-controller v0.5.0
-	github.com/gardener/hvpa-controller/api => github.com/gardener/hvpa-controller/api v0.5.0
+	github.com/gardener/hvpa-controller/api => github.com/gardener/hvpa-controller/api v0.17.0
 )
