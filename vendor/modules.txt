@@ -1132,5 +1132,5 @@ sigs.k8s.io/yaml
 # k8s.io/component-base => k8s.io/component-base v0.25.0
 # k8s.io/helm => k8s.io/helm v2.16.1+incompatible
 # sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.13.0
-# github.com/gardener/hvpa-controller => github.com/gardener/hvpa-controller v0.5.0
+# github.com/gardener/hvpa-controller => github.com/gardener/hvpa-controller v0.17.0
 # github.com/gardener/hvpa-controller/api => github.com/gardener/hvpa-controller/api v0.5.0
