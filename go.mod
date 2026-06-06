@@ -10,7 +10,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.1.4
 	github.com/onsi/gomega v1.20.0
 	github.com/spf13/cobra v1.4.0
-	github.com/spf13/pflag v1.0.5
+	github.com/spf13/pflag v1.0.10
 	golang.org/x/tools v0.1.12
 	k8s.io/api v0.25.0
 	k8s.io/apimachinery v0.25.0
